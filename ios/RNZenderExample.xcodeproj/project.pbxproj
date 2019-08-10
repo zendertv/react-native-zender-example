@@ -439,15 +439,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RNZenderExample/Pods-RNZenderExample-frameworks.sh",
-				"${PODS_ROOT}/Zender/zender-ios-sdk-v2.1.0/Zender.framework",
-				"${PODS_ROOT}/Zender/zender-ios-sdk-v2.1.0/ZenderPhenix.framework",
-				"${PODS_ROOT}/Zender/zender-ios-sdk-v2.1.0/PhenixSdk.framework",
+				"${PODS_ROOT}/PhenixSdk/lib/Universal/PhenixSdk.framework",
+				"${PODS_ROOT}/Zender/lib/Zender.framework",
+				"${PODS_ROOT}/Zender/lib/ZenderPhenix.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhenixSdk.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zender.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZenderPhenix.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhenixSdk.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

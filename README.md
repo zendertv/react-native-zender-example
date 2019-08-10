@@ -11,4 +11,4 @@
 ## Example creation
 - `react-native init RNZenderExample`
 - add Zender specs to RNZenderExample/ios/Podfile
-- `npm i git+ssh://git@github.com/smalltownheroes/react-native-zender.git#master`
+- `npm i git+https://git@github.com/zendertv/react-native-zender.git#feature-private-cocoapod-repo`
