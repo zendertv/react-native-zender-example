@@ -82,7 +82,7 @@ PODS:
   - React-RCTWebSocket (0.60.4):
     - React-Core (= 0.60.4)
     - React-fishhook (= 0.60.4)
-  - RNZenderPlayer (2.4.0):
+  - RNZenderPlayer (2.5.0):
     - React
     - Zender (= 2.4.0)
   - yoga (0.60.4.React)
@@ -120,7 +120,7 @@ DEPENDENCIES:
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://cdn.cocoapods.org/:
     - boost-for-react-native
   https://github.com/zendertv/Specs.git:
     - PhenixSdk
@@ -198,10 +198,10 @@ SPEC CHECKSUMS:
   React-RCTText: e0f224898b13af9aa036ea7cb3d438daa68c1044
   React-RCTVibration: 0bea40cd51bd089bd591a8f74c86e91fdf2666c5
   React-RCTWebSocket: 163873f4cdd5f1058a9483443404fc3801581cb6
-  RNZenderPlayer: 5ec256c97e5906c135916520991452bd4243f3db
+  RNZenderPlayer: f9b5322ca10e142db122b4f2b37ac64028a254db
   yoga: c2c050f6ae6e222534760cc82f559b89214b67e2
   Zender: ded8d56850bb2611778e81579840190224754f27
 
-PODFILE CHECKSUM: 93769286c7cdfef8eb9da345dd54d15f0a29564e
+PODFILE CHECKSUM: 3cb24cf753b8b0569feab5e723437ee444f2c136
 
 COCOAPODS: 1.7.5
