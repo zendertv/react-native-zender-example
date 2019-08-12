@@ -77,7 +77,10 @@ export default class App extends Component<Props> {
             const environment = await AsyncStorage.getItem('zenderEnvironment');
             if (targetId !== null) { this.setState({ 'targetId': targetId }); console.log(targetId); }
             if (channelId !== null) { this.setState({ 'channelId': channelId }); console.log(channelId); }
-            if (environment !== null) { this.setState({ 'environment': environment }); console.log(environment); }
+            if (environment !== null) { 
+		 this.setState({ 'environment': environment }); console.log(environment); 
+	         zenderConfig['environment'] = this.state.environment;
+            }
         } catch (error) {
             console.log(error);
             // Error retrieving data
