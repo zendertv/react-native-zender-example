@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "react": "16.8.6",
-    "react-native": "0.60.4",
+    "react-native": "0.82.1",
     "react-native-zender": "git+ssh://git@github.com/smalltownheroes/react-native-zender.git#master"
   },
   "devDependencies": {
